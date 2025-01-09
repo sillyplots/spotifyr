@@ -24,6 +24,23 @@ entire discography in seconds, along with Spotify’s audio features and
 track/album popularity metrics. You can also pull song and playlist
 information for a given Spotify User (including yourself!).
 
+**Warning**: As of November 2024 Spotify restricted access to many aspects of its API
+(see [this post](https://developer.spotify.com/blog/2024-11-27-changes-to-the-web-api)) for details).
+Affected routes include:
+
+- Related Artists
+- Recommendations
+- Audio Features
+- Audio Analysis
+- Get Featured Playlists
+- Get Category's Playlists
+- 30-second preview URLs, in multi-get responses (SimpleTrack object)
+- Algorithmic and Spotify-owned editorial playlists
+
+Only developers of pre-existing approved Spotify apps will be able to continue using these features, it seems.
+If you are not such a developer, then unfortunately the corresponding functions in the spotifyr package
+will not work for you.
+
 ## Installation
 
 CRAN version 2.2.3 (recommended)
