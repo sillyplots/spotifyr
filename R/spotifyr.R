@@ -8,7 +8,7 @@
 #' @name spotifyr
 #' @importFrom purrr map map_df map2
 #' @importFrom httr RETRY GET accept_json authenticate config content oauth2.0_token oauth_app oauth_endpoint stop_for_status
-#' @importFrom rvest html_session html_node html_nodes html_text html_attr
+#' @importFrom rvest html_node html_nodes html_text html_attr
 #' @importFrom tibble tribble
 #' @importFrom readr read_lines
 #' @importFrom stringr str_glue str_detect str_replace_all

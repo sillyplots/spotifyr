@@ -58,7 +58,7 @@ Imports:
     lubridate,
     jsonlite,
     readr,
-    rvest,
+    rvest (>= 1.0.0),
     stringr,
     tibble,
     janitor,
